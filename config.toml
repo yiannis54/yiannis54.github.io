@@ -1,7 +1,7 @@
 baseURL = "https://yiannis54.github.io"
 languageCode = "en-us"
 title = "Wed Development & E-Commerce"
-small_title = "Mundo GR."
+small_title = "Mundo.gr"
 themesDir = "themes"
 theme = "hugo-hero-theme"
 
