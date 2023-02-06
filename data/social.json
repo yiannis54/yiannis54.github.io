@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Github",
+        "link": "https://github.com/yiannis54",
+        "image": "social/github.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/koutsoumpidis/",
+        "image": "social/linkedin.svg"
+    }
+]

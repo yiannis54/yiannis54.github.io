@@ -1,0 +1,23 @@
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          {{ if .Site.Data.social }}
+          <ul class="social col-4">
+              {{ range .Site.Data.social }}
+                  <li><a href="{{ .link }}" target="blank"><img width="20" height="20" src="{{ .image | relURL }}" title="{{ .name }}" alt="{{ .name }}" /></a></li>
+              {{ end }}
+          </ul>
+          {{ end }}
+          <ul class="footer-menu">
+            <li>
+              Copyright© 2007-{{ now.Format "2006" }} | Mundo GR. | Designed with ❤️‍ | All Rights Reserved | <a href="{{ .Site.BaseURL }}privacy">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ partial "consent.html" . }}
